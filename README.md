@@ -33,10 +33,9 @@ Overall churn rate: **26.6%**.
 4. **Churn is costly.** Churned customers account for **30.5%** of total monthly revenue, and they pay more per month on average (74.4 vs 61.3) than customers who stay.
 
 ## Charts
-![Churn by contract](churn_output/churn_by_contract.png)
-![Churn by tenure](churn_output/churn_by_tenure.png)
+![Churn by contract](churn_by_contract.png)
+![Churn by tenure](churn_by_tenure.png)
 
-More charts and tables are in the [`churn_output`](churn_output) folder.
 
 ## Recommendations
 1. **Move customers to longer contracts.** Offer discounts or perks to month-to-month customers who switch to a one- or two-year plan.
@@ -53,7 +52,7 @@ More charts and tables are in the [`churn_output`](churn_output) folder.
 pip3 install pandas matplotlib
 python3 telco_churn_project.py /path/to/WA_Fn-UseC_-Telco-Customer-Churn.csv
 ```
-Charts, tables and `results.txt` are saved in the `churn_output` folder. The CSV is not included; download it from the Kaggle link above.
+Charts and results.txt are saved in a folder called churn_output when you run the script. The CSV is not included; download it from the Kaggle link above.
 
 ## Tools
 Python, pandas, matplotlib
